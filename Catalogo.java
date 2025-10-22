@@ -11,6 +11,10 @@ public class Catalogo<T> {
         }
     }
 
+    public int tamanho() {
+        return lista.size();
+    }
+
     
 }
 
