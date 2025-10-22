@@ -15,6 +15,9 @@ public class Catalogo<T> {
         return lista.size();
     }
 
-    
+    public static void exibirCatalogoGenerico(Catalogo<?> catalogo) {
+        catalogo.listar();
+        System.out.println("Total de itens: " + catalogo.tamanho());
+    }
 }
 
