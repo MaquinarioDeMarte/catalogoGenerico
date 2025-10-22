@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Catalogo<T> {
     private List<T> lista = new ArrayList<>();
 
